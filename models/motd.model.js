@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema
 
-let motdSchema = new Schema({
-    message: {type: String, required: true}
-});
+const motdSchema = new Schema({
+  message: { type: String, required: true }
+})
 
-module.exports = mongoose.model('motd', motdSchema);
+module.exports = mongoose.model('motd', motdSchema)
