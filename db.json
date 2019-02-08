@@ -1,0 +1,88 @@
+db.dropDatabase()
+db.parents.drop()
+db.students.drop()
+
+id1 = ObjectId()
+id2 = ObjectId()
+db.parents.insert([
+{
+    _id: id1,
+    firstname: 'Shawn',
+    lastname: 'Tan',
+    cellphone: '6197558816',
+    passcode: '8816'
+},
+{
+    _id: id2,
+    firstname: 'Angela',
+    lastname: 'Shi',
+    cellphone: '6265928085',
+    passcode: '8085'
+}
+])
+
+id3 = ObjectId()
+db.students.insert([
+    {
+        _id: id3,
+        firstname: 'Catherine', 
+        lastname: 'Tan',
+        grade: 0,
+        parents: [id1, id2]
+     },
+     {
+        firstname: 'Serena', 
+        lastname: 'Lu',
+        grade: 1,
+        parents: [id2]
+     }
+     ])
+
+db.signrecords.insert({
+    student: id3,
+    parent: id1,
+    time: new Date()
+})
+
+db.motds.insert({message: 'March tuition is due on Feburary 22nd' })
+
+
+
+
+var a = db.parents.aggregate([
+    {
+        $lookup: {
+            from: "students",
+            let: { parent_id: "$_id" },
+            pipeline: [
+                {
+                    $match: {
+                        $expr: {
+                            $and: [
+                                { $in: [ "$$parent_id", "$parents" ] }
+                            ]
+                        }
+                    }
+                }
+            ],
+            as: "students"
+        }
+    },
+    {
+        $project: {
+            _id: 1,
+            firstname: 1,
+            lastname: 1,
+            students: "$students"
+        }
+    },
+    {
+      $match: { "students": { $eq: [] } }
+   }
+]).forEach(function (p){
+    db.parents.deleteOne({_id: p._id})
+})
+
+for (let i=0;i<a.length;i++){
+    db.parents.deleteOne({_id: a[i]._id})
+}
