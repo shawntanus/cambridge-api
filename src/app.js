@@ -1,6 +1,7 @@
 'use strict'
 const express = require('express')
-const logger = require('morgan')
+const morgan = require('morgan')
+const winston = require('./config/winston')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
@@ -24,7 +25,8 @@ if (env === 'development') {
 
 mongoose.connection.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
-app.use(logger('combined'))
+// app.use(morgan('combined'))
+app.use(morgan('combined', { stream: winston('access').stream }))
 app.use(bodyParser.json())
 app.use('/api/signout', signoutRouter)
 app.use('/api/admin', adminRouter)

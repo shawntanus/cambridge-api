@@ -7,6 +7,7 @@ const studentSchema = new Schema({
   grade: Number,
   birthday: Date,
   parents: [{ type: Schema.Types.ObjectId, ref: 'Parent' }],
+  classes: [{ type: String }],
   lastsignout: Date
 }, {
   toObject: {

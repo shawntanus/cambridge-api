@@ -1,0 +1,186 @@
+{"message":"::ffff:10.100.230.33 - - [12/Feb/2019:06:29:27 +0000] \"GET /api/signout/motd HTTP/1.1\" 200 50 \"-\" \"curl/7.61.0\"\n","level":"info"}
+{"message":"::ffff:10.100.230.33 - - [12/Feb/2019:06:29:35 +0000] \"POST /api/signout/getStudents HTTP/1.1\" 200 607 \"http://10.100.224.166:8080/signout-ui/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:10.100.230.33 - - [12/Feb/2019:06:29:37 +0000] \"POST /api/signout/getStudents HTTP/1.1\" 200 26 \"http://10.100.224.166:8080/signout-ui/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36\"\n","level":"info"}
+{"message":"::ffff:10.100.230.33 - - [12/Feb/2019:06:29:59 +0000] \"GET /api/signout/motd HTTP/1.1\" 304 - \"http://10.100.224.166:8080/signout-ui/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36\"\n","level":"info"}
+2019-02-12T06:30:49.917Z [access] [info]: ::ffff:10.100.230.33 - - [12/Feb/2019:06:30:49 +0000] "POST /api/signout/getStudents HTTP/1.1" 200 607 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+
+2019-02-12T06:30:51.293Z [access] [info]: ::ffff:10.100.230.33 - - [12/Feb/2019:06:30:51 +0000] "POST /api/signout/getStudents HTTP/1.1" 200 26 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+
+2019-02-12T06:30:59.151Z [access] [info]: ::ffff:10.100.230.33 - - [12/Feb/2019:06:30:59 +0000] "GET /api/signout/motd HTTP/1.1" 304 - "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.96 Safari/537.36"
+
+2019-02-12T11:21:35.004Z [access] [info]: ::ffff:191.101.128.49 - - [12/Feb/2019:11:21:35 +0000] "GET / HTTP/1.0" 404 139 "-" "Mozilla/5.0(WindowsNT6.1;rv:31.0)Gecko/20100101Firefox/31.0"
+
+2019-02-12T11:47:12.891Z [access] [info]: ::ffff:198.108.67.48 - - [12/Feb/2019:11:47:12 +0000] "GET / HTTP/1.1" 404 139 "-" "-"
+
+2019-02-12T20:04:10.196Z [access] [info]: ::ffff:209.17.97.58 - - [12/Feb/2019:20:04:10 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+
+2019-02-12T23:08:46.514Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:08:46 +0000] "GET /api/signout/motd HTTP/1.1" 304 - "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+
+2019-02-12T23:09:46.419Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:09:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:10:46.733Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:10:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:11:46.741Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:11:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:12:46.698Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:12:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:13:46.735Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:13:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:14:46.735Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:14:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:15:46.735Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:15:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:16:46.416Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:16:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:17:46.544Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:17:46 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:18:30.891Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:18:30 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:18:32.816Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:18:32 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:19:32.806Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:19:32 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:20:33.824Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:20:33 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:21:32.815Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:21:32 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:22:17.218Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:22:17 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:22:33.546Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:22:33 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:23:17.557Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:23:17 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:23:32.805Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:23:32 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:24:17.636Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:24:17 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:24:32.808Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:24:32 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:24:59.135Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:24:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:25:59.128Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:25:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:26:59.127Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:26:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:27:59.617Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:27:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:28:59.600Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:28:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:29:59.609Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:29:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:30:59.551Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:30:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:31:51.121Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:31:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:31:59.548Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:31:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:32:51.118Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:32:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:32:59.121Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:32:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:33:51.556Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:33:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:33:59.675Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:33:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:34:51.118Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:34:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:34:59.536Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:34:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:35:51.535Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:35:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:35:59.612Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:35:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:36:51.544Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:36:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:36:59.517Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:36:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:37:51.119Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:37:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:37:59.120Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:37:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:38:51.604Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:38:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:38:59.604Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:38:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:39:51.536Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:39:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:39:59.608Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:39:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:40:51.543Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:40:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:40:59.610Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:40:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:41:51.536Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:41:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:41:59.680Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:41:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:42:51.608Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:42:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:42:59.613Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:42:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:43:51.496Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:43:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:43:59.678Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:43:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:44:51.552Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:44:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:44:59.528Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:44:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:45:51.116Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:45:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:45:59.116Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:45:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:46:51.119Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:46:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:46:59.532Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:46:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:47:51.116Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:47:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:47:59.116Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:47:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:48:51.603Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:48:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:48:59.600Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:48:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:49:51.601Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:49:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:49:59.595Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:49:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:50:51.111Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:50:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:50:59.115Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:50:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:51:51.112Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:51:51 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:51:59.118Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:51:59 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:52:27.156Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:52:27 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:53:27.148Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:53:27 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:54:27.148Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:54:27 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:55:27.148Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:55:27 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:56:27.144Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:56:27 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:57:18.173Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:57:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:58:18.500Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:58:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-12T23:59:18.506Z [access] [info]: ::ffff:10.100.224.22 - - [12/Feb/2019:23:59:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:00:18.572Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:00:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:01:18.500Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:01:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:02:18.507Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:02:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:03:18.502Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:03:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:04:18.506Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:04:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:05:18.499Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:05:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
+2019-02-13T00:06:18.160Z [access] [info]: ::ffff:10.100.224.22 - - [13/Feb/2019:00:06:18 +0000] "GET /api/signout/motd HTTP/1.1" 200 50 "http://10.100.224.166:8080/signout-ui/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mobile Safari/537.36"
+
